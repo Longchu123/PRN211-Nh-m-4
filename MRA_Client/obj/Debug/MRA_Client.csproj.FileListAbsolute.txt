@@ -1,0 +1,33 @@
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION-master\MRA_Client\bin\Debug\MRA_Client.exe.config
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION-master\MRA_Client\bin\Debug\MRA_Client.exe
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION-master\MRA_Client\bin\Debug\MRA_Client.pdb
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION-master\MRA_Client\obj\Debug\MRA_Client.csproj.AssemblyReference.cache
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION-master\MRA_Client\obj\Debug\MRA_Client.MRA_Login.resources
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION-master\MRA_Client\obj\Debug\MRA_Client.MRA_Management.resources
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION-master\MRA_Client\obj\Debug\MRA_Client.Properties.Resources.resources
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION-master\MRA_Client\obj\Debug\MRA_Client.csproj.GenerateResource.cache
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION-master\MRA_Client\obj\Debug\MRA_Client.csproj.CoreCompileInputs.cache
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION-master\MRA_Client\obj\Debug\MRA_Client.exe
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION-master\MRA_Client\obj\Debug\MRA_Client.pdb
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION\MRA_Client\bin\Debug\MRA_Client.exe.config
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION\MRA_Client\bin\Debug\MRA_Client.exe
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION\MRA_Client\bin\Debug\MRA_Client.pdb
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION\MRA_Client\obj\Debug\MRA_Client.csproj.AssemblyReference.cache
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION\MRA_Client\obj\Debug\MRA_Client.MRA_Login.resources
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION\MRA_Client\obj\Debug\MRA_Client.MRA_Management.resources
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION\MRA_Client\obj\Debug\MRA_Client.Properties.Resources.resources
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION\MRA_Client\obj\Debug\MRA_Client.csproj.GenerateResource.cache
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION\MRA_Client\obj\Debug\MRA_Client.csproj.CoreCompileInputs.cache
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION\MRA_Client\obj\Debug\MRA_Client.exe
+C:\Users\nanht\Desktop\MARK_REPORT_APPLICATION\MRA_Client\obj\Debug\MRA_Client.pdb
+G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\bin\Debug\MRA_Client.exe.config
+G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\bin\Debug\MRA_Client.exe
+G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\bin\Debug\MRA_Client.pdb
+G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\Debug\MRA_Client.csproj.AssemblyReference.cache
+G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\Debug\MRA_Client.MRA_Login.resources
+G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\Debug\MRA_Client.MRA_Management.resources
+G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\Debug\MRA_Client.Properties.Resources.resources
+G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\Debug\MRA_Client.csproj.GenerateResource.cache
+G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\Debug\MRA_Client.csproj.CoreCompileInputs.cache
+G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\Debug\MRA_Client.exe
+G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\Debug\MRA_Client.pdb
