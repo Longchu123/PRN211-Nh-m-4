@@ -60,7 +60,7 @@ namespace MRA_Client
             this.label2.Location = new System.Drawing.Point(29, 61);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 18);
+            this.label2.Size = new System.Drawing.Size(42, 24);
             this.label2.TabIndex = 5;
             this.label2.Text = "Roll";
             // 
@@ -73,7 +73,7 @@ namespace MRA_Client
             this.label3.Location = new System.Drawing.Point(29, 100);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 18);
+            this.label3.Size = new System.Drawing.Size(92, 24);
             this.label3.TabIndex = 6;
             this.label3.Text = "Password";
             // 
@@ -84,7 +84,7 @@ namespace MRA_Client
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxRoll.Location = new System.Drawing.Point(132, 58);
             this.textBoxRoll.Name = "textBoxRoll";
-            this.textBoxRoll.Size = new System.Drawing.Size(228, 24);
+            this.textBoxRoll.Size = new System.Drawing.Size(228, 29);
             this.textBoxRoll.TabIndex = 0;
             // 
             // textBoxPassword
@@ -94,8 +94,9 @@ namespace MRA_Client
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxPassword.Location = new System.Drawing.Point(132, 97);
             this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(228, 24);
+            this.textBoxPassword.Size = new System.Drawing.Size(228, 29);
             this.textBoxPassword.TabIndex = 1;
+            this.textBoxPassword.UseSystemPasswordChar = true;
             // 
             // buttonExit
             // 
@@ -106,7 +107,7 @@ namespace MRA_Client
             this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonExit.Location = new System.Drawing.Point(132, 142);
             this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(103, 28);
+            this.buttonExit.Size = new System.Drawing.Size(103, 34);
             this.buttonExit.TabIndex = 3;
             this.buttonExit.Text = "Exit";
             this.buttonExit.UseVisualStyleBackColor = true;
@@ -121,7 +122,7 @@ namespace MRA_Client
             this.buttonLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLogin.Location = new System.Drawing.Point(257, 142);
             this.buttonLogin.Name = "buttonLogin";
-            this.buttonLogin.Size = new System.Drawing.Size(103, 28);
+            this.buttonLogin.Size = new System.Drawing.Size(103, 34);
             this.buttonLogin.TabIndex = 2;
             this.buttonLogin.Text = "Login";
             this.buttonLogin.UseVisualStyleBackColor = true;
@@ -129,7 +130,7 @@ namespace MRA_Client
             // 
             // MRA_Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(391, 199);
             this.ControlBox = false;

@@ -31,3 +31,4 @@ G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-
 G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\Debug\MRA_Client.csproj.CoreCompileInputs.cache
 G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\Debug\MRA_Client.exe
 G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\Debug\MRA_Client.pdb
+G:\FPT\Semester  5\PRN 211\Retake\Grade_Project\drive-download-20211010T100409Z-001\MRA_Client\obj\Debug\MRA_Client.MRA_StudentDetail.resources

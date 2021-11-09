@@ -62,9 +62,9 @@ namespace MRA_Client
             this.ClassComboBox.DisplayMember = "rollclass";
             this.ClassComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ClassComboBox.FormattingEnabled = true;
-            this.ClassComboBox.Location = new System.Drawing.Point(278, 50);
+            this.ClassComboBox.Location = new System.Drawing.Point(287, 50);
             this.ClassComboBox.Name = "ClassComboBox";
-            this.ClassComboBox.Size = new System.Drawing.Size(121, 26);
+            this.ClassComboBox.Size = new System.Drawing.Size(121, 32);
             this.ClassComboBox.TabIndex = 3;
             this.ClassComboBox.ValueMember = "rollclass";
             this.ClassComboBox.SelectionChangeCommitted += new System.EventHandler(this.ClassComboBox_SelectionChangeCommitted);
@@ -74,9 +74,9 @@ namespace MRA_Client
             this.SubjectComboBox.DisplayMember = "Roll";
             this.SubjectComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.SubjectComboBox.FormattingEnabled = true;
-            this.SubjectComboBox.Location = new System.Drawing.Point(74, 50);
+            this.SubjectComboBox.Location = new System.Drawing.Point(90, 50);
             this.SubjectComboBox.Name = "SubjectComboBox";
-            this.SubjectComboBox.Size = new System.Drawing.Size(121, 26);
+            this.SubjectComboBox.Size = new System.Drawing.Size(121, 32);
             this.SubjectComboBox.TabIndex = 4;
             this.SubjectComboBox.ValueMember = "Roll";
             this.SubjectComboBox.SelectionChangeCommitted += new System.EventHandler(this.SubjectComboBox_SelectionChangeCommitted);
@@ -97,9 +97,11 @@ namespace MRA_Client
             this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.dataGridView1.Location = new System.Drawing.Point(159, 105);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(1304, 660);
             this.dataGridView1.TabIndex = 5;
             this.dataGridView1.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.dataGridView1_CellBeginEdit);
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             this.dataGridView1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEndEdit);
             // 
             // label4
@@ -107,7 +109,7 @@ namespace MRA_Client
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(226, 53);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 18);
+            this.label4.Size = new System.Drawing.Size(55, 24);
             this.label4.TabIndex = 6;
             this.label4.Text = "Class";
             // 
@@ -116,7 +118,7 @@ namespace MRA_Client
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(11, 53);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 18);
+            this.label5.Size = new System.Drawing.Size(73, 24);
             this.label5.TabIndex = 7;
             this.label5.Text = "Subject";
             // 
@@ -127,7 +129,7 @@ namespace MRA_Client
             this.GrandItemCheckedListBox.FormattingEnabled = true;
             this.GrandItemCheckedListBox.Location = new System.Drawing.Point(11, 105);
             this.GrandItemCheckedListBox.Name = "GrandItemCheckedListBox";
-            this.GrandItemCheckedListBox.Size = new System.Drawing.Size(139, 270);
+            this.GrandItemCheckedListBox.Size = new System.Drawing.Size(139, 268);
             this.GrandItemCheckedListBox.Sorted = true;
             this.GrandItemCheckedListBox.TabIndex = 9;
             this.GrandItemCheckedListBox.SelectedIndexChanged += new System.EventHandler(this.GrandItemCheckedListBox_SelectedIndexChanged);
@@ -137,7 +139,7 @@ namespace MRA_Client
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(11, 84);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(81, 18);
+            this.label6.Size = new System.Drawing.Size(102, 24);
             this.label6.TabIndex = 10;
             this.label6.Text = "Grand Item";
             // 
@@ -147,7 +149,7 @@ namespace MRA_Client
             this.buttonSave.Enabled = false;
             this.buttonSave.Location = new System.Drawing.Point(1221, 778);
             this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(122, 28);
+            this.buttonSave.Size = new System.Drawing.Size(122, 34);
             this.buttonSave.TabIndex = 12;
             this.buttonSave.Text = "Save";
             this.buttonSave.UseVisualStyleBackColor = true;
@@ -158,7 +160,7 @@ namespace MRA_Client
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(156, 84);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(85, 18);
+            this.label7.Size = new System.Drawing.Size(105, 24);
             this.label7.TabIndex = 11;
             this.label7.Text = "Mark report";
             // 
@@ -167,7 +169,7 @@ namespace MRA_Client
             this.buttonExit.AutoSize = true;
             this.buttonExit.Location = new System.Drawing.Point(1349, 778);
             this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(114, 28);
+            this.buttonExit.Size = new System.Drawing.Size(114, 34);
             this.buttonExit.TabIndex = 13;
             this.buttonExit.Text = "Exit";
             this.buttonExit.UseVisualStyleBackColor = true;
@@ -175,7 +177,7 @@ namespace MRA_Client
             // 
             // MRA_Management
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1476, 818);
             this.ControlBox = false;

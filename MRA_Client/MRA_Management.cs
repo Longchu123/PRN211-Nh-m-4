@@ -46,11 +46,18 @@ namespace MRA_Client {
                 dataGridView1.Columns[grandItem.RollType].DataPropertyName = grandItem.RollType;
             }
 
-            string rollSubject = SubjectComboBox.SelectedValue.ToString();
+            string rollSubject = SubjectComboBox.SelectedValue.ToString().Trim();
             string rollClass = ClassComboBox.SelectedValue.ToString().Trim();
 
             List<Student> students = ManagementController.GetStudent(rollClass);
             dataGridView1.DataSource = students;
+
+
+            dataGridView1.Columns["gender"].Visible = false;
+            dataGridView1.Columns["address"].Visible = false;
+            dataGridView1.Columns["email"].Visible = false;
+            dataGridView1.Columns["phone"].Visible = false;
+
 
             // display score of each student
             foreach (DataGridViewRow dataGridViewRow in dataGridView1.Rows) {
@@ -218,6 +225,17 @@ namespace MRA_Client {
         private void buttonSave_Click(object sender, EventArgs e) {
             UpdateMark();
             LoadTable();
+        }
+
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e) {
+
+
+            string rollStudent = dataGridView1.CurrentRow.Cells["RollStudentColumn"].Value.ToString();
+            string rollClass = ClassComboBox.SelectedValue.ToString();
+
+            MRA_StudentDetail mr = new MRA_StudentDetail(rollStudent,rollClass);
+
+            mr.Show();
         }
     }
 }
